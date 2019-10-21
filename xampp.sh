@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
-# Programa: xampp.sh
-# Autor: Gabriel Maciel
+# Program: xampp.sh
+# Author: Gabriel Maciel
 #
-# Descrição:
+# Description:
 # This script will be responsible for managing
 # xampp.
 #
