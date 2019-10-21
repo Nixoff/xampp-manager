@@ -7,4 +7,5 @@ Certique-se do arquivo ter permissões de execução, para dar permissão uso o 
 sudo chmod u+x xampp.sh 
 
 Para utilizar o Script, basta rodar o comando:
+
 sudo ./xampp.sh
