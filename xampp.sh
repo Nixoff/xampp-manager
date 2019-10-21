@@ -21,7 +21,7 @@ echo "
 		 ██╔██╗ ██╔══██║██║╚██╔╝██║██╔═══╝ ██╔═══╝ By:
 		██╔╝ ██╗██║  ██║██║ ╚═╝ ██║██║     ██║	      Gabadev     
 		╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝"
-echo "		Seja bem vindo ao gerenciador !"
+echo "		Welcome to the manager!"
 echo ""
 
 }
@@ -32,12 +32,12 @@ cd /opt/lampp
 
 CONT="y"
 while [ $CONT == "y" ]; do
-echo -n "Por favor escolha uma das opções:
+echo -n "Please choose an option.:
 
-	1- Iniciar Xampp
-	2- Reiniciar Xampp
-	3- Parar o Xampp
-	4- Checar Status
+	1- Start the Xampp
+	2- Restart the Xampp
+	3- Stop the Xampp
+	4- Check Status
 >"
 read -n1 OPC
 clear
@@ -61,12 +61,12 @@ case $OPC in
 	2) sudo ./lampp restart;;
 	3) sudo ./lampp stop;;
 	4) sudo ./lampp	status;;
-	*) echo "Por favor selecione uma das opções acima";;
+	*) echo "Please choose a valid option.";;
 
 esac
 
 echo ""
-echo -n "Pressione 'y' para retornar ao primeiro menu: ou 'n' para sair"; read -n1 CONT  
+echo -n "Type Y to return to first menu OR N to exit. "; read -n1 CONT  
 #read -n1 choice
 clear
 
