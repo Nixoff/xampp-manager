@@ -4,10 +4,10 @@
 # Autor: Gabriel Maciel
 #
 # Descrição:
-# Este script será responsável pelo gerenciamento
-# do xampp.
+# This script will be responsible for managing
+# xampp.
 #
-# Uso: sudo chmod u+x xampp.sh && ./xampp.sh
+# Usage: sudo chmod u+x xampp.sh && ./xampp.sh
 #
 
 clear 
